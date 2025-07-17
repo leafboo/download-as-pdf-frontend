@@ -1,0 +1,29 @@
+{
+    "data": [
+      {
+        "title": "A Study on the Effects of Online Learning on Student Performance",
+        "authors": "Jane Doe, John Smith",
+        "year of publication": 2021,
+        "abstract": "This paper explores how online learning platforms impact student academic performance across multiple disciplines.",
+        "methods used": "Quantitative analysis through surveys and test score comparisons before and after implementing online learning tools.",
+        "results": "Students using online platforms showed a 15% increase in performance compared to those using traditional methods."
+      },
+      {
+        "title": "Machine Learning Techniques for Disease Prediction",
+        "authors": "Emily Chen, Raj Patel",
+        "year of publication": 2020,
+        "abstract": "The research investigates how machine learning algorithms can be utilized to predict disease outbreaks and patient risks.",
+        "methods used": "Implementation of logistic regression, random forest, and neural networks on medical datasets.",
+        "results": "Neural networks provided the highest accuracy at 92%, followed by random forest at 88% and logistic regression at 81%."
+      },
+      {
+        "title": "Sustainable Urban Development in Southeast Asia",
+        "authors": "Carlos Mendoza, Aisha Rahman",
+        "year of publication": 2019,
+        "abstract": "This paper examines the challenges and strategies for sustainable urban planning in rapidly growing Southeast Asian cities.",
+        "methods used": "Case study analysis of five urban development projects, combined with policy reviews and stakeholder interviews.",
+        "results": "Integrated green infrastructure and community participation were key factors in successful sustainability outcomes."
+      }
+    ]
+  }
+  
