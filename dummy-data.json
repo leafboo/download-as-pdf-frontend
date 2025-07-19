@@ -1,29 +1,40 @@
 {
-    "data": [
-      {
-        "title": "A Study on the Effects of Online Learning on Student Performance",
-        "authors": "Jane Doe, John Smith",
-        "publicationYear": 2021,
-        "abstract": "This paper explores how online learning platforms impact student academic performance across multiple disciplines.",
-        "methods": "Quantitative analysis through surveys and test score comparisons before and after implementing online learning tools.",
-        "findings": "Students using online platforms showed a 15% increase in performance compared to those using traditional methods."
-      },
-      {
-        "title": "Machine Learning Techniques for Disease Prediction",
-        "authors": "Emily Chen, Raj Patel",
-        "publicationYear": 2020,
-        "abstract": "The research investigates how machine learning algorithms can be utilized to predict disease outbreaks and patient risks.",
-        "methods": "Implementation of logistic regression, random forest, and neural networks on medical datasets.",
-        "findings": "Neural networks provided the highest accuracy at 92%, followed by random forest at 88% and logistic regression at 81%."
-      },
-      {
-        "title": "Sustainable Urban Development in Southeast Asia",
-        "authors": "Carlos Mendoza, Aisha Rahman",
-        "publicationYear": 2019,
-        "abstract": "This paper examines the challenges and strategies for sustainable urban planning in rapidly growing Southeast Asian cities.",
-        "methods": "Case study analysis of five urban development projects, combined with policy reviews and stakeholder interviews.",
-        "findings": "Integrated green infrastructure and community participation were key factors in successful sustainability outcomes."
+  "data": [
+    {
+      "title": "A Study on the Effects of Online Learning on Student Performance",
+      "authors": "Jane Doe, John Smith",
+      "publicationYear": 2021,
+      "abstract": "This paper explores how online learning platforms impact student academic performance across multiple disciplines.",
+      "methods": "Quantitative analysis through surveys and test score comparisons before and after implementing online learning tools.",
+      "findings": "Students using online platforms showed a 15% increase in performance compared to those using traditional methods.",
+      "references": {
+        "APA": "Doe, J., & Smith, J. (2021). *A study on the effects of online learning on student performance*. Educational Research Journal, 45(2), 134-150.",
+        "IEEE": "J. Doe and J. Smith, “A study on the effects of online learning on student performance,” *Educational Research Journal*, vol. 45, no. 2, pp. 134-150, 2021."
       }
-    ]
-  }
-  
+    },
+    {
+      "title": "Machine Learning Techniques for Disease Prediction",
+      "authors": "Emily Chen, Raj Patel",
+      "publicationYear": 2020,
+      "abstract": "The research investigates how machine learning algorithms can be utilized to predict disease outbreaks and patient risks.",
+      "methods": "Implementation of logistic regression, random forest, and neural networks on medical datasets.",
+      "findings": "Neural networks provided the highest accuracy at 92%, followed by random forest at 88% and logistic regression at 81%.",
+      "references": {
+        "APA": "Chen, E., & Patel, R. (2020). *Machine learning techniques for disease prediction*. Journal of Medical Informatics, 38(4), 201-217.",
+        "IEEE": "E. Chen and R. Patel, “Machine learning techniques for disease prediction,” *Journal of Medical Informatics*, vol. 38, no. 4, pp. 201-217, 2020."
+      }
+    },
+    {
+      "title": "Sustainable Urban Development in Southeast Asia",
+      "authors": "Carlos Mendoza, Aisha Rahman",
+      "publicationYear": 2019,
+      "abstract": "This paper examines the challenges and strategies for sustainable urban planning in rapidly growing Southeast Asian cities.",
+      "methods": "Case study analysis of five urban development projects, combined with policy reviews and stakeholder interviews.",
+      "findings": "Integrated green infrastructure and community participation were key factors in successful sustainability outcomes.",
+      "references": {
+        "APA": "Mendoza, C., & Rahman, A. (2019). *Sustainable urban development in Southeast Asia*. Urban Studies Review, 29(3), 98-115.",
+        "IEEE": "C. Mendoza and A. Rahman, “Sustainable urban development in Southeast Asia,” *Urban Studies Review*, vol. 29, no. 3, pp. 98-115, 2019."
+      }
+    }
+  ]
+}

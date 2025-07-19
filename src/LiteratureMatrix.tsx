@@ -1,4 +1,5 @@
 import LiteratureMatrixRow from "./LiteratureMatrixRow"
+import References from "./References"
 import dummyData from "../dummy-data.json"
 
 export default function LiteratureMatrix() {
@@ -14,7 +15,7 @@ export default function LiteratureMatrix() {
     return (
         <>
             <br />
-            <div className="flex justify-center text-[30px]"> Literature Matrix</div><br />
+            <div className="flex justify-center text-[30px] font-bold"> Literature Matrix</div><br />
             <table className=" w-[80rem] ml-auto mr-auto text-left">
                 <thead>
                     <tr>
@@ -32,10 +33,11 @@ export default function LiteratureMatrix() {
                 
                 
                 
-            </table>
+            </table><br />
+            <References />
             <br /><br />
             <div className="flex justify-center">
-                <button className="p-[10px] border-[1px] cursor-pointer">Download as PDF</button>
+                <button className="p-[10px] border-[1px] cursor-pointer mb-[2rem] duration-[0.15s] hover:bg-black hover:text-white">Download as PDF</button>
             </div>
         </>
     )
