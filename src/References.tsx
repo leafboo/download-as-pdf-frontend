@@ -5,7 +5,7 @@ import dummyData from "../dummy-data.json"
 
 export default function References() {
 
-    const [buttonClicked, setButtonClicked] = useState<string>("");
+    const [buttonClicked, setButtonClicked] = useState<string>("APA");
 
     const inactiveButtonStyle = "ml-[2rem] font-normal border-[1px] px-[1.5rem] py-[.2rem] cursor-pointer duration-[0.15s] hover:bg-black hover:text-white";
     const activeButtonStyle = "bg-black text-white ml-[2rem] font-normal border-[1px] px-[1.5rem] py-[.2rem] cursor-pointer"
