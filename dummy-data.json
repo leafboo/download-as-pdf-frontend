@@ -35,6 +35,90 @@
         "APA": "Mendoza, C., & Rahman, A. (2019). *Sustainable urban development in Southeast Asia*. Urban Studies Review, 29(3), 98-115.",
         "IEEE": "C. Mendoza and A. Rahman, “Sustainable urban development in Southeast Asia,” *Urban Studies Review*, vol. 29, no. 3, pp. 98-115, 2019."
       }
+    },
+    {
+      "title": "Blockchain Applications in Supply Chain Management",
+      "authors": "Liam Turner, Sophia Zhang",
+      "publicationYear": 2022,
+      "abstract": "This study investigates how blockchain technology can improve transparency and efficiency in supply chain operations.",
+      "methods": "Implementation and evaluation of a blockchain-based prototype in a food logistics company.",
+      "findings": "Blockchain enhanced traceability and reduced transaction processing time by 30%.",
+      "references": {
+        "APA": "Turner, L., & Zhang, S. (2022). *Blockchain applications in supply chain management*. Logistics and Technology Journal, 12(1), 55-70.",
+        "IEEE": "L. Turner and S. Zhang, “Blockchain applications in supply chain management,” *Logistics and Technology Journal*, vol. 12, no. 1, pp. 55-70, 2022."
+      }
+    },
+    {
+      "title": "The Role of AI in Personalized Marketing",
+      "authors": "Nina Gomez, Thomas Lee",
+      "publicationYear": 2021,
+      "abstract": "The paper explores how artificial intelligence is revolutionizing personalized marketing strategies in e-commerce.",
+      "methods": "A/B testing and predictive modeling using customer behavioral data.",
+      "findings": "Personalized marketing using AI increased user engagement by 25% compared to non-personalized campaigns.",
+      "references": {
+        "APA": "Gomez, N., & Lee, T. (2021). *The role of AI in personalized marketing*. Journal of Digital Marketing, 17(2), 87-102.",
+        "IEEE": "N. Gomez and T. Lee, “The role of AI in personalized marketing,” *Journal of Digital Marketing*, vol. 17, no. 2, pp. 87-102, 2021."
+      }
+    },
+    {
+      "title": "Cybersecurity Threats in the Era of IoT",
+      "authors": "Ahmed Khan, Lisa Martinez",
+      "publicationYear": 2020,
+      "abstract": "This research analyzes the rising cybersecurity threats due to the proliferation of Internet of Things (IoT) devices.",
+      "methods": "Threat modeling and vulnerability analysis using penetration testing tools on IoT devices.",
+      "findings": "Smart home devices were the most vulnerable, with 62% found to have critical security flaws.",
+      "references": {
+        "APA": "Khan, A., & Martinez, L. (2020). *Cybersecurity threats in the era of IoT*. Cybersecurity Studies, 5(3), 142-158.",
+        "IEEE": "A. Khan and L. Martinez, “Cybersecurity threats in the era of IoT,” *Cybersecurity Studies*, vol. 5, no. 3, pp. 142-158, 2020."
+      }
+    },
+    {
+      "title": "The Impact of Climate Change on Coastal Ecosystems",
+      "authors": "Haruki Tanaka, Maria Lopez",
+      "publicationYear": 2018,
+      "abstract": "This paper evaluates how rising sea levels and temperature shifts affect biodiversity in coastal ecosystems.",
+      "methods": "Longitudinal environmental sampling and species population tracking over 5 years.",
+      "findings": "A 20% decline in key fish species was recorded, correlating with increased water temperature.",
+      "references": {
+        "APA": "Tanaka, H., & Lopez, M. (2018). *The impact of climate change on coastal ecosystems*. Environmental Biology Review, 23(1), 23-40.",
+        "IEEE": "H. Tanaka and M. Lopez, “The impact of climate change on coastal ecosystems,” *Environmental Biology Review*, vol. 23, no. 1, pp. 23-40, 2018."
+      }
+    },
+    {
+      "title": "Augmented Reality in STEM Education",
+      "authors": "Olivia Wright, Benjamin Yu",
+      "publicationYear": 2023,
+      "abstract": "The study investigates the effects of augmented reality (AR) tools on student engagement and learning outcomes in STEM education.",
+      "methods": "Experimental design comparing control and AR-integrated groups over a semester.",
+      "findings": "Students using AR tools demonstrated 33% higher engagement and improved test scores.",
+      "references": {
+        "APA": "Wright, O., & Yu, B. (2023). *Augmented reality in STEM education*. Journal of Educational Technology, 40(1), 12-28.",
+        "IEEE": "O. Wright and B. Yu, “Augmented reality in STEM education,” *Journal of Educational Technology*, vol. 40, no. 1, pp. 12-28, 2023."
+      }
+    },
+    {
+      "title": "Analyzing Social Media's Influence on Political Opinion",
+      "authors": "Fatima Noor, Kevin Brooks",
+      "publicationYear": 2022,
+      "abstract": "This research evaluates how exposure to political content on social media platforms influences user opinions and voting behavior.",
+      "methods": "Mixed methods including sentiment analysis, surveys, and focus groups.",
+      "findings": "Echo chambers were found to reinforce pre-existing beliefs, reducing openness to opposing views.",
+      "references": {
+        "APA": "Noor, F., & Brooks, K. (2022). *Analyzing social media's influence on political opinion*. Political Communication Studies, 14(2), 65-83.",
+        "IEEE": "F. Noor and K. Brooks, “Analyzing social media's influence on political opinion,” *Political Communication Studies*, vol. 14, no. 2, pp. 65-83, 2022."
+      }
+    },
+    {
+      "title": "Renewable Energy Adoption in Rural Communities",
+      "authors": "Isabella Green, David Nkomo",
+      "publicationYear": 2019,
+      "abstract": "This paper explores how rural areas are integrating solar and wind technologies to achieve energy independence.",
+      "methods": "Field research in three rural villages, energy output monitoring, and community interviews.",
+      "findings": "Solar energy adoption led to a 70% decrease in reliance on diesel generators.",
+      "references": {
+        "APA": "Green, I., & Nkomo, D. (2019). *Renewable energy adoption in rural communities*. Energy and Society Journal, 11(4), 119-133.",
+        "IEEE": "I. Green and D. Nkomo, “Renewable energy adoption in rural communities,” *Energy and Society Journal*, vol. 11, no. 4, pp. 119-133, 2019."
+      }
     }
   ]
 }
