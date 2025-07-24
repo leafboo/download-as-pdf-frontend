@@ -3,13 +3,33 @@ import References from "./References"
 import dummyData from "../dummy-data.json"
 import { jsPDF } from "jspdf"
 import { autoTable } from "jspdf-autotable"
+import { useState } from "react"
 
 export default function LiteratureMatrix() {
+
+    const [buttonClicked, setButtonClicked] = useState("APA");
+
+    function changeButtonClicked(type: string) {
+        if (type === "IEEE" && buttonClicked !== "IEEE")  { // if button is already IEEE, do not setState to avoid unnecessary re-render
+            setButtonClicked("IEEE")
+        } else if (type === "APA" && buttonClicked !== "APA") {
+            setButtonClicked("APA")
+        }
+    }
+
+    const ReferencesTextsArray = dummyData.data.map(paper => { return buttonClicked === "APA" ? paper.references.APA : paper.references.IEEE })
+    const ReferencesTexts = ReferencesTextsArray.join("\n\n")
+  
     function downloadPdf() {
-        const doc = new jsPDF();
+        const doc = new jsPDF({orientation: 'p', format: 'a4'}); // this is the pdf document
         autoTable(doc, { html: '#my-table' })
         // console.log(doc)
         //doc.text('References', 20, 30) // doc.text(text content, margin left, margin top)
+        const docWidth = doc.internal.pageSize.getWidth();
+        const textLines = doc.setFont('Arial').setFontSize(12).splitTextToSize(ReferencesTexts, docWidth - 15)
+        
+        doc.text("References", 10, (doc as any).lastAutoTable.finalY + 50);
+        doc.text(textLines, 10, (doc as any).lastAutoTable.finalY + 65);
         doc.save('literatureMatrix.pdf')
     }
     
@@ -21,6 +41,7 @@ export default function LiteratureMatrix() {
                                                                                     abstract={element.abstract}
                                                                                     methods={element.methods}
                                                                                     findings={element.findings} /> )
+    
 
     
     return (
@@ -45,7 +66,7 @@ export default function LiteratureMatrix() {
                 
                 
             </table><br />
-            <References />
+            <References buttonClicked={buttonClicked} changeButtonClicked={changeButtonClicked} />
             <br /><br />
             <div className="flex justify-center">
                 <button className="p-[10px] border-[1px] cursor-pointer mb-[2rem] duration-[0.15s] hover:bg-black hover:text-white" onClick={downloadPdf} >Download as PDF</button>
