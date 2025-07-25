@@ -22,7 +22,7 @@ export default function LiteratureMatrix() {
   
     function downloadPdf() {
         const doc = new jsPDF({orientation: 'p', format: 'a4'}); // this is the pdf document
-        autoTable(doc, { html: '#my-table' })
+        autoTable(doc, { html:'#my-table', theme:'grid', headStyles: {fillColor: 'gray', textColor: 'white'}, bodyStyles: { textColor: 'black' } })
         // console.log(doc)
         //doc.text('References', 20, 30) // doc.text(text content, margin left, margin top)
         const docWidth = doc.internal.pageSize.getWidth();
