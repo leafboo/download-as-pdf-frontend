@@ -9,6 +9,17 @@ export default function LiteratureMatrix() {
 
     const [buttonClicked, setButtonClicked] = useState("APA");
 
+    const ReferencesTextsArray = dummyData.data.map(paper => { return buttonClicked === "APA" ? paper.references.APA : paper.references.IEEE });
+    const ReferencesTexts = ReferencesTextsArray.join("\n\n");
+
+    const LitMatrixRowElement = dummyData.data.map(element => <LiteratureMatrixRow title={element.title}
+                                                                                    authors={element.authors}
+                                                                                    publicationYear={element.publicationYear}
+                                                                                    abstract={element.abstract}
+                                                                                    methods={element.methods}
+                                                                                    findings={element.findings} /> );
+    
+
     function changeButtonClicked(type: string) {
         if (type === "IEEE" && buttonClicked !== "IEEE")  { // if button is already IEEE, do not setState to avoid unnecessary re-render
             setButtonClicked("IEEE")
@@ -16,9 +27,6 @@ export default function LiteratureMatrix() {
             setButtonClicked("APA")
         }
     }
-
-    const ReferencesTextsArray = dummyData.data.map(paper => { return buttonClicked === "APA" ? paper.references.APA : paper.references.IEEE })
-    const ReferencesTexts = ReferencesTextsArray.join("\n\n")
   
     function downloadPdf() {
         const doc = new jsPDF({orientation: 'p', format: 'a4'}); // this is the pdf document
@@ -33,16 +41,8 @@ export default function LiteratureMatrix() {
         doc.save('literatureMatrix.pdf')
     }
     
-    
 
-    const LitMatrixRowElement = dummyData.data.map(element => <LiteratureMatrixRow title={element.title}
-                                                                                    authors={element.authors}
-                                                                                    publicationYear={element.publicationYear}
-                                                                                    abstract={element.abstract}
-                                                                                    methods={element.methods}
-                                                                                    findings={element.findings} /> )
     
-
     
     return (
         <>
